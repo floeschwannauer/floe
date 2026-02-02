@@ -1,0 +1,182 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: mistyrose;
+    color: black;
+    line-height: 1.6;
+}
+
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 40px; 
+}
+
+
+
+
+h1 {
+    font-family: "Garamond", "Palatino Linotype", "Book Antiqua", serif;
+    font-weight: 400;           
+    font-size: 6.2rem;            
+    margin: 20px 0 30px;
+    color: rgb(160, 59, 93);
+    text-align: center;
+    line-height: 1.1;
+}
+
+
+
+
+
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+    font-family: 'Playfair Display', serif;
+    color: rgb(160, 59, 93);
+}
+
+
+
+
+
+.navigation {
+    background-color: palevioletred;
+    padding: 12px 0;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+
+
+.einleitung,
+.unsere-produkte,
+.auktion,
+.überuns,
+.öffnungszeiten,
+.produkt-info,
+.produkt-daten,
+.produkt-hinweis,
+body > p {
+    max-width: 1100px;      
+    margin: 40px auto;
+    padding: 0 20px;         
+}
+
+
+
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.home-bild {
+    margin: 40px 0;
+    text-align: center;
+}
+
+
+
+.produkte {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px;                             
+    margin: 40px 0;
+    padding: 20px;
+}
+
+
+
+.produkt {
+    padding: 10px;       
+    text-align: center;
+}
+
+
+
+.produkt h2 {
+    font-size: 1.2em;
+}
+
+.ware {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.produkt-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: palevioletred;
+    color: white;
+    text-decoration: none;
+}
+
+.produkt-link:hover {
+    background-color: deeppink;
+}
+
+
+
+.produkt-bilder,
+.auktion-bilder,
+.ueber-uns-bild {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.produkt-bilder img,
+.schiff,
+.ich {
+    margin: 10px;
+}
+
+
+
+.öffnungszeiten ul,
+.produkt-hinweis ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.öffnungszeiten li,
+.produkt-hinweis li {
+    padding: 8px 0;
+    text-align: left;
+}
